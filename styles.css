@@ -1,0 +1,39 @@
+html {
+	scroll-behavior:smooth;
+}
+<style>
+body {
+	background-image: url('Background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+</style>
+.gallery img {
+	width:400; height:250;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middle-images {
+
+	margin:0 auto;
+	display:flex;
+	max-width: 100%;
+	height: auto;
+	justify-content: space-evenly;
+	
+}
+
+a:visited {
+	color: blue;
+}
+
+a:hover {
+	color: red;
+}
